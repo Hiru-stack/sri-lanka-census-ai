@@ -1,0 +1,54 @@
+﻿column,definition,unit,source_table,report_page,derived
+district,District name standardized to official common spelling; report uses both Ratnapura/Rathnapura in places,category,Multiple district tables,multiple,False
+province,Province containing district,category,Table 3.2,51,False
+population_2024,"Total population in district, 2024",persons,Table 3.2,51,False
+population_share_sri_lanka_pct,District share of Sri Lanka population,percent,Table 3.2,51,False
+avg_annual_population_growth_2012_2024_pct,Average annual population growth rate from 2012 to 2024,percent per year,Table 3.3,52,False
+population_density_2024_per_sq_km,Population density in 2024,persons per sq km,Table 3.4,53,False
+urban_population_pct,Share of district population in Urban sector,percent,Table 3.6,55,False
+estate_urban_population_pct,Share of district population in Estate Urban sector; dash treated as zero because table reports no population,percent,Table 3.6,55,False
+rural_population_pct,Share of district population in Rural sector,percent,Table 3.6,55,False
+estate_rural_population_pct,Share of district population in Estate Rural sector; dash treated as zero because table reports no population,percent,Table 3.6,55,False
+population_under_18_count,Population aged less than 18,persons,Table 6.1.5,89,False
+population_under_18_pct,Derived from under-18 count divided by total district population in Table 6.1.5,percent,Table 6.1.5,89,True
+disability_rate_per_1000_age5plus,"Persons aged 5+ with at least one disability per 1,000 persons","per 1,000 persons aged 5+",Table 6.2.6,115,False
+population_age25plus_2024,Population aged 25 years and over,persons aged 25+,Table 7.7,137,False
+education_no_schooling_pct_age25plus,"Population aged 25+ with no schooling, 2024",percent,Table 7.7,137,False
+education_grades_1_5_pct_age25plus,"Population aged 25+ passed Grades 1-5, 2024",percent,Table 7.7,137,False
+education_grades_6_10_pct_age25plus,"Population aged 25+ passed Grades 6-10, 2024",percent,Table 7.7,137,False
+education_ol_pct_age25plus,"Population aged 25+ with G.C.E. O/L or equivalent, 2024",percent,Table 7.7,137,False
+education_al_or_over_pct_age25plus,"Population aged 25+ with G.C.E. A/L or over, 2024",percent,Table 7.7,137,False
+computer_literacy_rate_pct_age5plus,Computer literacy rate among population aged 5+,percent,Table 7.13,142,False
+digital_literacy_rate_pct_age5plus,Digital literacy rate among population aged 5+,percent,Table 7.13,142,False
+labour_force_2024_count,Labour force count,persons,Table 8.10,155,False
+employment_rate_pct,Employment rate among labour force,percent,Table 8.10,155,False
+unemployment_rate_pct,Unemployment rate among labour force,percent,Table 8.10,155,False
+in_migration_2024_count,In-migration count by district,persons,Table 5.1.5,72,False
+out_migration_2024_count,Out-migration count by district,persons,Table 5.1.5,72,False
+net_migration_2024_count,Net migration = in-migration minus out-migration,persons,Table 5.1.5,72,False
+in_migration_per_1000_population_derived,"Derived for ML normalization: in-migration count divided by 2024 district population x 1,000","per 1,000 resident population",Table 5.1.5 + Table 3.2,72,True
+out_migration_per_1000_population_derived,"Derived for ML normalization: out-migration count divided by 2024 district population x 1,000","per 1,000 resident population",Table 5.1.5 + Table 3.2,72,True
+net_migration_per_1000_population_derived,"Derived for ML normalization: net-migration count divided by 2024 district population x 1,000","per 1,000 resident population",Table 5.1.5 + Table 3.2,72,True
+households_2024_count,Total households,households,Table 10.2,176,False
+one_person_households_pct,One-person households as share of total households,percent,Table 10.2,176,False
+nuclear_households_pct,Nuclear households as share of total households,percent,Table 10.2,176,False
+extended_households_pct,Extended households as share of total households,percent,Table 10.2,176,False
+composite_households_pct,Composite households as share of total households,percent,Table 10.2,176,False
+female_household_heads_pct,Female household heads as share of household heads,percent,Table 10.5,179,False
+household_heads_age65plus_pct,Household heads aged 65 and over as share of household heads,percent,Table 10.5,179,False
+occupied_housing_units_2024_count,"Occupied housing units, 2024",housing units,Table 11.2,185,False
+closed_or_vacant_housing_units_2024_count,"Permanently closed or vacant housing units, 2024",housing units,Table 11.2,185,False
+closed_or_vacant_share_reported_units_pct,Derived as closed/vacant divided by occupied plus closed/vacant units,percent,Table 11.2,185,True
+housing_owned_by_household_member_pct,Occupied housing units owned by a household member,percent,Table 11.4,187,False
+housing_private_rent_or_lease_pct,Occupied housing units rented/leased from private owner,percent,Table 11.4,187,False
+housing_free_of_rent_pct,Occupied housing units occupied free of rent,percent,Table 11.4,187,False
+permanent_housing_units_pct,Permanent housing units as share of housing units,percent,Table 11.7,190,False
+semi_permanent_housing_units_pct,Semi-permanent housing units as share of housing units,percent,Table 11.7,190,False
+improvised_housing_units_pct,Improvised housing units as share of housing units,percent,Table 11.7,190,False
+drinking_water_within_housing_unit_pct,Households with drinking water within housing unit,percent,Table 11.10,192,False
+drinking_water_within_premises_pct,Households with drinking water within premises,percent,Table 11.10,192,False
+drinking_water_outside_premises_pct,Households with drinking water outside premises,percent,Table 11.10,192,False
+households_using_firewood_for_cooking_pct,"Households using firewood as main source of cooking energy, 2024",percent,Table 11.12,194,False
+households_using_gas_for_cooking_pct,"Households using gas as main source of cooking energy, 2024",percent,Table 11.12,194,False
+water_sealed_toilet_pct,Households using water-sealed toilet,percent,Table 11.16,197,False
+not_water_sealed_toilet_pct,Households using non-water-sealed toilet,percent,Table 11.16,197,False
