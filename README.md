@@ -117,6 +117,14 @@ A balanced subset of socioeconomic variables was selected for clustering.
 
 ---
 
+## 🌐 Live Demo
+
+Explore the interactive Sri Lanka district cluster map here:
+
+[🔗 View Interactive Map](https://hiru-stack.github.io/sri-lanka-census-ai/
+
+---
+
 ## 🔬 Machine Learning Pipeline
 
 ```text
@@ -142,10 +150,6 @@ Isolation Forest
           ↓
 Geospatial Visualization
 
-## 🌐 Live Demo
 
-Explore the interactive Sri Lanka district cluster map here:
-
-[🔗 View Interactive Map](https://hiru-stack.github.io/sri-lanka-census-ai/)
 
 Created and done by Hirusha Jayasundara
